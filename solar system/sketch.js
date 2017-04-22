@@ -75,7 +75,7 @@ function draw() {
 
 function Ball(period, rad, size){
 	this.center = createVector(width/2, height/2);
-	this.fr = 1;
+	this.fr = 60;
 
 	this.period = period; //seconds per rotation
 	this.angvel = 2*PI/(this.period*this.fr);
